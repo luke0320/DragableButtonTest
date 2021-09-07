@@ -5,7 +5,7 @@
 //  Created by Luke Lee on 2021/9/7.
 //
 
-import UIKit
+import Foundation
 
 enum ButtonAction {
     case openWebPage(url: URL)
@@ -14,6 +14,6 @@ enum ButtonAction {
 
 struct MyButton {
     var title: String
-    var color: UIColor
+    var colorHex: Int
     var action: ButtonAction
 }
