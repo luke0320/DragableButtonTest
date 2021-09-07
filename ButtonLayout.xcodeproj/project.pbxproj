@@ -13,6 +13,8 @@
 		1AAA14E726E7773C002D6ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA14E526E7773C002D6ED9 /* Main.storyboard */; };
 		1AAA14E926E7773E002D6ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA14E826E7773E002D6ED9 /* Assets.xcassets */; };
 		1AAA14EC26E7773E002D6ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA14EA26E7773E002D6ED9 /* LaunchScreen.storyboard */; };
+		1AAA14F426E77EBA002D6ED9 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA14F326E77EBA002D6ED9 /* MyButton.swift */; };
+		1AAA14F626E77F1C002D6ED9 /* MyWebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA14F526E77F1C002D6ED9 /* MyWebPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1AAA14E826E7773E002D6ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AAA14EB26E7773E002D6ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AAA14ED26E7773E002D6ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AAA14F326E77EBA002D6ED9 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		1AAA14F526E77F1C002D6ED9 /* MyWebPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1AAA14DF26E7773C002D6ED9 /* AppDelegate.swift */,
 				1AAA14E126E7773C002D6ED9 /* SceneDelegate.swift */,
 				1AAA14E326E7773C002D6ED9 /* ViewController.swift */,
+				1AAA14F526E77F1C002D6ED9 /* MyWebPage.swift */,
+				1AAA14F326E77EBA002D6ED9 /* MyButton.swift */,
 				1AAA14E526E7773C002D6ED9 /* Main.storyboard */,
 				1AAA14E826E7773E002D6ED9 /* Assets.xcassets */,
 				1AAA14EA26E7773E002D6ED9 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				1AAA14E426E7773C002D6ED9 /* ViewController.swift in Sources */,
 				1AAA14E026E7773C002D6ED9 /* AppDelegate.swift in Sources */,
+				1AAA14F626E77F1C002D6ED9 /* MyWebPage.swift in Sources */,
 				1AAA14E226E7773C002D6ED9 /* SceneDelegate.swift in Sources */,
+				1AAA14F426E77EBA002D6ED9 /* MyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
