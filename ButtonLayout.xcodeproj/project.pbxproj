@@ -66,18 +66,24 @@
 		1AAA14DE26E7773C002D6ED9 /* ButtonLayout */ = {
 			isa = PBXGroup;
 			children = (
-				1AAA14DF26E7773C002D6ED9 /* AppDelegate.swift */,
-				1AAA14E826E7773E002D6ED9 /* Assets.xcassets */,
-				E39B6CB226E7BDAB00703D76 /* extensions */,
-				1AAA14ED26E7773E002D6ED9 /* Info.plist */,
-				1AAA14EA26E7773E002D6ED9 /* LaunchScreen.storyboard */,
-				1AAA14E526E7773C002D6ED9 /* Main.storyboard */,
+				1AAA14F726E7C9E9002D6ED9 /* supporting */,
 				E39B6CB426E7BDCF00703D76 /* model */,
-				1AAA14E126E7773C002D6ED9 /* SceneDelegate.swift */,
 				E39B6CB526E7BDE000703D76 /* view */,
 				E39B6CB326E7BDB400703D76 /* view controller */,
 			);
 			path = ButtonLayout;
+			sourceTree = "<group>";
+		};
+		1AAA14F726E7C9E9002D6ED9 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				1AAA14DF26E7773C002D6ED9 /* AppDelegate.swift */,
+				1AAA14E826E7773E002D6ED9 /* Assets.xcassets */,
+				E39B6CB226E7BDAB00703D76 /* extensions */,
+				1AAA14ED26E7773E002D6ED9 /* Info.plist */,
+				1AAA14E126E7773C002D6ED9 /* SceneDelegate.swift */,
+			);
+			path = supporting;
 			sourceTree = "<group>";
 		};
 		E39B6CB226E7BDAB00703D76 /* extensions */ = {
@@ -109,6 +115,8 @@
 		E39B6CB526E7BDE000703D76 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				1AAA14EA26E7773E002D6ED9 /* LaunchScreen.storyboard */,
+				1AAA14E526E7773C002D6ED9 /* Main.storyboard */,
 				E39B6CAC26E7952F00703D76 /* ButtonCell.swift */,
 			);
 			path = view;
@@ -340,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9B56628Y7;
-				INFOPLIST_FILE = ButtonLayout/Info.plist;
+				INFOPLIST_FILE = ButtonLayout/supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,7 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9B56628Y7;
-				INFOPLIST_FILE = ButtonLayout/Info.plist;
+				INFOPLIST_FILE = ButtonLayout/supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
