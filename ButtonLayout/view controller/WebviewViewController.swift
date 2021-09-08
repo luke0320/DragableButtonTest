@@ -1,5 +1,5 @@
 //
-//  MyWebPage.swift
+//  WebviewViewController.swift
 //  ButtonLayout
 //
 //  Created by Luke Lee on 2021/9/7.
@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-class MyWebPage: UIViewController {
+class WebviewViewController: UIViewController {
     
     //MARK: - UI
     private var webView: WKWebView!
@@ -78,7 +78,7 @@ class MyWebPage: UIViewController {
 }
 
 //MARK: - WKNavigation Delegate Methods
-extension MyWebPage: WKNavigationDelegate {
+extension WebviewViewController: WKNavigationDelegate {
     
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         startLoading(true)

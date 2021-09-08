@@ -70,7 +70,7 @@ extension ViewController: UICollectionViewDelegate {
         var vc: UIViewController
         switch button.action {
         case .openWebPage(let url):
-            vc = MyWebPage(url: url)
+            vc = WebviewViewController(url: url)
         case .openPlainPage:
             vc = UIViewController()
             vc.view.backgroundColor = UIColor(hex: button.colorHex)
